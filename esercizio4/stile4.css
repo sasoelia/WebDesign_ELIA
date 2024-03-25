@@ -1,0 +1,163 @@
+h1{
+    font-size: 400 px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+img{
+border: 10px solid rgb(195, 20, 20);
+padding: 20px;
+margin: 20px;
+}
+
+/* PROVA TESTI DESCRITTIVI POI RIATTIVA SELETTORE  
+p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 1000px;
+    line-height: 30px;
+}
+*/
+h2{
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    color:deeppink;
+    text-align: center;
+}
+
+a:hover{
+    color: coral;
+}
+
+main ::content{
+    background-color: antiquewhite;
+}
+header{
+    background-color: black;
+    padding-top: 20px;
+}
+
+a{
+    font-style: normal;
+    color: antiquewhite;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    font-weight: 500;
+    color: blanchedalmond;
+}
+.footer{
+    text-decoration: none;
+    color: deeppink;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+}
+.fotohomeq{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px; 
+    width: 100%;
+    align-items: center;
+}
+
+
+.intest{
+    text-decoration: none;
+    font-size: 120px;
+    text-align: center;
+}
+
+header{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+body{
+    background-color: antiquewhite;
+}
+.artisti{
+    width: 300px;
+    height: 300px;
+}
+
+.fotogalleq{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1700px; 
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.opereq{
+    width: 300px;
+    height: 300px;
+}
+
+p{
+    display: flex;
+    display: wrap;
+    justify-content: flex-start;
+    max-inline-size: 650px;
+    text-align: center;
+    align-content: center;
+}
+.center-me{
+    margin: auto;
+    width: 1500px;
+    padding: 20px;
+    text-align: center;
+    max-inline-size: 650px;
+    font-size: 26px;
+}
+
+.fotogalleq2{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1700px; 
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.opereq2{
+    width: 300px;
+    height: 300px;
+}
+
+.fotogalleq3{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1700px; 
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.opereq3{
+    width: 300px;
+    height: 300px;
+}
+
+.griglia{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-left: 200px;
+   margin-right: 100px;
+
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: blueviolet;
+}
+img{
+    height: 35px;
+}
+h1{
+    font-size: 32 px;
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
