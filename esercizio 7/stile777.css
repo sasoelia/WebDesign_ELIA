@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.transiz-div {
+    width: 200px;
+    height: 100px;
+    background-color: orangered;
+    transition: transform 0.5s ease;
+}
+
+.transiz-div:hover {
+    transform: translateX(50px);
+}
+
+.anim-div {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    animation: color-change 3s infinite alternate;
+}
+
+@keyframes color-change {
+    0% {
+        background-color: skyblue;
+    }
+
+    50% {
+        background-color: greenyellow;
+    }
+
+    100% {
+        background-color: black;
+    }
+}

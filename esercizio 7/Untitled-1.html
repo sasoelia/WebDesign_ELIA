@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Esempio Transizione e Animazione CSS</title>
+<style>
+  main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .transition-div {
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+    transition: transform 0.5s ease;
+  }
+
+  .transition-div:hover {
+    transform: translateX(50px);
+  }
+
+  .animation-div {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    animation: color-change 3s infinite alternate;
+  }
+
+  @keyframes color-change {
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: red;
+    }
+    100% {
+      background-color: blue;
+    }
+  }
+</style>
+</head>
+<body>
+
+<main>
+  <div class="transition-div"></div>
+  <div class="animation-div"></div>
+</main>
+
+</body>
+</html>
