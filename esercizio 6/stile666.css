@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+    position: relative;
+}
+
+main {
+    position: relative;
+}
+
+#absolute {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+#relativeContainer {
+    position: relative;
+    width: 200px;
+    margin: 50px auto;
+    background-color: bisque;
+    padding: 10px;
+}
+
+#sticky {
+    position: sticky;
+    top: 50px;
+    height: 100px;
+    background-color: royalblue;
+}
